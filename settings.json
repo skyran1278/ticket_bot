@@ -1,5 +1,5 @@
 {
-    "homepage": "about:blank",
+    "homepage": "https://tixcraft.com/activity/game/24_jaychou",
     "browser": "chrome",
     "language": "English",
     "ticket_number": 2,
@@ -13,8 +13,8 @@
     "webdriver_type": "undetected_chromedriver",
     "date_auto_select": {
         "enable": true,
-        "date_keyword": "",
-        "mode": "random"
+        "date_keyword": "\"2024/12/08\"",
+        "mode": "from bottom to top"
     },
     "area_auto_select": {
         "enable": true,
