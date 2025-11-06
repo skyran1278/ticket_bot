@@ -1,5 +1,12 @@
 # Max 蛋黃酥上車機器人
 
+## Getting started
+
+```sh
+uv sync
+uv run settings.py
+```
+
 ## 總覽
 
 MaxBot 是一個開放原始碼的蛋黃酥/公車訂位機器人。祝您搶購成功。
@@ -61,8 +68,6 @@ https://github.com/max32002/tixcraft_bot/releases
 - 如果你是要用「原始碼」執行 MaxBot, 在透過 git clone 或在 github 按下載原始碼的 zip 檔， python 版本使用 3.7 / 3.8 / 3.9 / 3.10 這 4 個版號測試功能正常。
 - 如果有辦法的話，建議使用原始碼來執行 MaxBot，執行上的「效率」與「相容性」的問題會較少。
 
-
-
 ## Demo 示範影片
 
 [點此查看示範影片](https://github.com/max32002/tixcraft_bot/blob/master/demo_video.md)
@@ -70,6 +75,7 @@ https://github.com/max32002/tixcraft_bot/releases
 ## How to Use 如何使用
 
 如何使用網頁說明:
+
 - tixcraft / indievox / ticketmaster: https://max-everyday.com/2018/03/tixcraft-bot/
 - kktix: https://max-everyday.com/2018/12/kktix-bot/
 - cityline: https://max-everyday.com/2019/03/cityline-bot/
@@ -172,7 +178,9 @@ https://zh-tw.emeditor.com/increase-virtual-memory/
 </details>
 
 ## File Description 檔案說明
+
 主要的檔案說明:
+
 - chrome_tixcraft.py : 搶票機器人主程式，用來自動化網頁的操作，使用元件是 selenium。
 - nodriver_tixcraft.py : 也是搶票機器人主程式，用來自動化網頁的操作，使用的元件是 nodriver。
 - settings.py : 編輯 settings.json 的 GUI 介面。提供圖片 OCR 功能給 chrome 擴充功能。支援定時啟用/停用 MaxBot。
@@ -183,12 +191,10 @@ https://zh-tw.emeditor.com/increase-virtual-memory/
 
 https://stackoverflow.max-everyday.com/2018/03/selenium-chrome-webdriver/
 
-
 ## TODO about Cpatcha 關於驗證碼
 
 目前自動輸入驗證碼用的元件是:
 https://github.com/sml2h3/ddddocr
-
 
 ## Common Problems 常見問題整理
 
